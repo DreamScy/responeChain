@@ -11,6 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TestView : UIView
+@property(nonatomic , strong)UIButton * button;
+@property(nonatomic , strong)UILabel * label;
 
 @end
 

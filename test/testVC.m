@@ -16,9 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup aft  er loading the view.
+    self.view.backgroundColor = [UIColor orangeColor];
+    
+    UIButton * test = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:test];
+    test.frame = CGRectMake(0, 0, 100, 100);
+    test.backgroundColor = [UIColor redColor];
+    test.backgroundColor = [UIColor blueColor];
+    [test addTarget:self action:@selector(pushView) forControlEvents:UIControlEventTouchUpInside];
 }
-
+- (void)pushView
+{
+    testVC * test = [[testVC alloc] init];
+    [self.navigationController pushViewController:test animated:YES];
+}
 /*
 #pragma mark - Navigation
 

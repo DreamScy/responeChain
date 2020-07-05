@@ -8,9 +8,11 @@
 
 #import "UIResponder+router.h"
 
-#import <AppKit/AppKit.h>
 
 
 @implementation UIResponder (router)
-
+- (void)routerEventWithName:(NSString *)eventName userInfo:(NSDictionary *)userInfo
+{
+    [[self nextResponder] routerEventWithName:eventName userInfo:userInfo];
+}
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6418D002497CF6700301918 /* testVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C6418CFF2497CF6700301918 /* testVC.m */; };
 		C65E1161246BD2930068DBD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C65E1160246BD2930068DBD4 /* AppDelegate.m */; };
 		C65E1164246BD2930068DBD4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C65E1163246BD2930068DBD4 /* SceneDelegate.m */; };
 		C65E1167246BD2930068DBD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C65E1166246BD2930068DBD4 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 		C65E1172246BD2960068DBD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C65E1171246BD2960068DBD4 /* main.m */; };
 		C65E117C246BD2960068DBD4 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65E117B246BD2960068DBD4 /* testTests.m */; };
 		C65E1187246BD2960068DBD4 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65E1186246BD2960068DBD4 /* testUITests.m */; };
+		C68513FE249D151000037F5D /* UIResponder+router.m in Sources */ = {isa = PBXBuildFile; fileRef = C68513FD249D151000037F5D /* UIResponder+router.m */; };
+		C6851401249D156A00037F5D /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6851400249D156A00037F5D /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C6418CFE2497CF6700301918 /* testVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testVC.h; sourceTree = "<group>"; };
+		C6418CFF2497CF6700301918 /* testVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testVC.m; sourceTree = "<group>"; };
 		C65E115C246BD2930068DBD4 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65E115F246BD2930068DBD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C65E1160246BD2930068DBD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +59,10 @@
 		C65E1182246BD2960068DBD4 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65E1186246BD2960068DBD4 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		C65E1188246BD2960068DBD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68513FC249D151000037F5D /* UIResponder+router.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+router.h"; sourceTree = "<group>"; };
+		C68513FD249D151000037F5D /* UIResponder+router.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+router.m"; sourceTree = "<group>"; };
+		C68513FF249D156A00037F5D /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		C6851400249D156A00037F5D /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				C65E1163246BD2930068DBD4 /* SceneDelegate.m */,
 				C65E1165246BD2930068DBD4 /* ViewController.h */,
 				C65E1166246BD2930068DBD4 /* ViewController.m */,
+				C68513FF249D156A00037F5D /* TestView.h */,
+				C6851400249D156A00037F5D /* TestView.m */,
+				C68513FC249D151000037F5D /* UIResponder+router.h */,
+				C68513FD249D151000037F5D /* UIResponder+router.m */,
+				C6418CFE2497CF6700301918 /* testVC.h */,
+				C6418CFF2497CF6700301918 /* testVC.m */,
 				C65E1168246BD2930068DBD4 /* Main.storyboard */,
 				C65E116B246BD2960068DBD4 /* Assets.xcassets */,
 				C65E116D246BD2960068DBD4 /* LaunchScreen.storyboard */,
@@ -267,10 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6851401249D156A00037F5D /* TestView.m in Sources */,
 				C65E1167246BD2930068DBD4 /* ViewController.m in Sources */,
 				C65E1161246BD2930068DBD4 /* AppDelegate.m in Sources */,
+				C6418D002497CF6700301918 /* testVC.m in Sources */,
 				C65E1172246BD2960068DBD4 /* main.m in Sources */,
 				C65E1164246BD2930068DBD4 /* SceneDelegate.m in Sources */,
+				C68513FE249D151000037F5D /* UIResponder+router.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
