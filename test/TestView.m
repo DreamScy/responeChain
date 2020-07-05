@@ -35,6 +35,7 @@
     [self.label addGestureRecognizer:tap];
     
     ///这是测试代码
+    //
 }
 - (void)labelNext
 {
