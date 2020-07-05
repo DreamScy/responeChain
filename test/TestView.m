@@ -34,6 +34,7 @@
     self.label.userInteractionEnabled = YES;
     [self.label addGestureRecognizer:tap];
     
+    //
     
 }
 - (void)labelNext
